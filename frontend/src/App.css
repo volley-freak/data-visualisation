@@ -1,0 +1,42 @@
+#sidebar {
+  height: 100vh;
+  width: inherit;
+  background-color: #343a40;
+  position: fixed;
+  /* Dark background color */
+  color: #fff;
+  /* Text color */
+  box-shadow: 3px 0px 5px 0px rgba(0, 0, 0, 0.5);
+  /* Box shadow effect */
+}
+
+#sidebar .sidebar-heading {
+  padding: 1rem 0;
+  text-align: center;
+  font-size: 1.5rem;
+  background-color: #212529;
+  /* Brand background color */
+  color: #fff;
+  /* Brand text color */
+  font-weight: bold;
+}
+
+#sidebar .nav-link {
+  color: #fff;
+  /* Text color for sidebar links */
+}
+
+#sidebar .nav-link:hover {
+  background-color: #495057;
+  /* Hover background color */
+}
+
+/* Add a divider between the company name and links using an <hr> element */
+#sidebar .divider {
+  border: 1px solid #6c757d;
+  /* Divider color */
+  margin: 0.5rem 0;
+}
+.btn.dropdown-toggle::after {
+  display: none;
+}
